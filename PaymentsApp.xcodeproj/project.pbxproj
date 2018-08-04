@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A142F51E21153B38004E63AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F51D21153B38004E63AF /* main.m */; };
+		A142F52621153BCE004E63AF /* PaymentGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F52521153BCE004E63AF /* PaymentGateway.m */; };
+		A142F52921153D3E004E63AF /* AmazonPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F52821153D3E004E63AF /* AmazonPayment.m */; };
+		A142F52C21153D4B004E63AF /* StripePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F52B21153D4B004E63AF /* StripePayment.m */; };
+		A142F52F21153D58004E63AF /* PayPalPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F52E21153D58004E63AF /* PayPalPayment.m */; };
+		A142F5322115476B004E63AF /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A142F5312115476A004E63AF /* InputHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		A142F51A21153B38004E63AF /* PaymentsApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PaymentsApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A142F51D21153B38004E63AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A142F52421153BCE004E63AF /* PaymentGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		A142F52521153BCE004E63AF /* PaymentGateway.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentGateway.m; sourceTree = "<group>"; };
+		A142F52721153D3E004E63AF /* AmazonPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmazonPayment.h; sourceTree = "<group>"; };
+		A142F52821153D3E004E63AF /* AmazonPayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPayment.m; sourceTree = "<group>"; };
+		A142F52A21153D4B004E63AF /* StripePayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StripePayment.h; sourceTree = "<group>"; };
+		A142F52B21153D4B004E63AF /* StripePayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StripePayment.m; sourceTree = "<group>"; };
+		A142F52D21153D58004E63AF /* PayPalPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		A142F52E21153D58004E63AF /* PayPalPayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPalPayment.m; sourceTree = "<group>"; };
+		A142F5302115475E004E63AF /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		A142F5312115476A004E63AF /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,16 @@
 		A142F51121153B38004E63AF = {
 			isa = PBXGroup;
 			children = (
+				A142F5302115475E004E63AF /* InputHandler.h */,
+				A142F5312115476A004E63AF /* InputHandler.m */,
+				A142F52421153BCE004E63AF /* PaymentGateway.h */,
+				A142F52521153BCE004E63AF /* PaymentGateway.m */,
+				A142F52721153D3E004E63AF /* AmazonPayment.h */,
+				A142F52821153D3E004E63AF /* AmazonPayment.m */,
+				A142F52A21153D4B004E63AF /* StripePayment.h */,
+				A142F52B21153D4B004E63AF /* StripePayment.m */,
+				A142F52D21153D58004E63AF /* PayPalPayment.h */,
+				A142F52E21153D58004E63AF /* PayPalPayment.m */,
 				A142F51C21153B38004E63AF /* PaymentsApp */,
 				A142F51B21153B38004E63AF /* Products */,
 			);
@@ -119,6 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A142F51E21153B38004E63AF /* main.m in Sources */,
+				A142F5322115476B004E63AF /* InputHandler.m in Sources */,
+				A142F52621153BCE004E63AF /* PaymentGateway.m in Sources */,
+				A142F52F21153D58004E63AF /* PayPalPayment.m in Sources */,
+				A142F52921153D3E004E63AF /* AmazonPayment.m in Sources */,
+				A142F52C21153D4B004E63AF /* StripePayment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
